@@ -3,4 +3,4 @@
 Layout usando display table
 Las columnas de cada fila crecen en altura según crezcan sus columnas "hermanas"
 
-[a link](http://mentiraspoliticas.es/projects/grid-table/grid-table.html)
+[Demo](http://mentiraspoliticas.es/projects/grid-table/grid-table.html)
