@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Usando Display Table</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<meta name="description" content="Usando Display Table">
+	<meta name="author" content="Iván Alizu">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+
+	<div class="container">
+		<section class="row mb-20">
+			<article class="col col-24-24 text-center">
+				<h1>Usando Display Table</h1>
+				<p>Para la vista móvil se usa FLEXBOX para poder ordenar contenidos</p>
+			</article>
+		</section>
+		<section class="row mb-20">
+			<article class="col col-12-24 order-1">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x510/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x280/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<img src="https://dummyimage.com/600x400/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+			<article class="col col-12-24 bg-white order-2">
+				<div class="card">
+					<h2>Título H2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions card__actions--bottom card__actions--right">
+						<a href="#!" class="btn">Botón 1</a>
+						<a href="#!" class="btn">Botón 2</a>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="row mb-20">
+			<article class="col col-5-24 order-1">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x330/06b8af/fff" media="(max-width: 767px)">
+						<source srcset="https://dummyimage.com/767x330/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x300/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<source srcset="https://dummyimage.com/185x290/06b8af/fff" media="(max-width: 900px)">
+						<source srcset="https://dummyimage.com/220x320/06b8af/fff" media="(max-width: 1042px)">
+						<img src="https://dummyimage.com/250x290/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+			<article class="col col-14-24 bg-white order-2">
+				<div class="card">
+					<h2>Título H2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions">
+						<a href="#!" class="btn">Botón 1</a>
+						<a href="#!" class="btn">Botón 2</a>
+					</div>
+				</div>
+			</article>
+			<article class="col col-5-24 order-3">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x330/06b8af/fff" media="(max-width: 767px)">
+						<source srcset="https://dummyimage.com/767x330/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x300/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<source srcset="https://dummyimage.com/185x290/06b8af/fff" media="(max-width: 900px)">
+						<source srcset="https://dummyimage.com/220x320/06b8af/fff" media="(max-width: 1042px)">
+						<img src="https://dummyimage.com/250x290/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+		</section>
+		<section class="row mb-20">
+			<article class="col col-12-24 order-1">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x510/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x280/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<img src="https://dummyimage.com/600x400/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+			<article class="col col-12-24 bg-white order-2">
+				<div class="card">
+					<h2>Título H2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions card__actions--bottom card__actions--center">
+						<a href="#!" class="btn">Botón 1</a>
+						<a href="#!" class="btn">Botón 2</a>
+						<a href="#!" class="btn">Botón 3</a>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="row mb-40">
+			<article class="col col-12-24 bg-white order-2">
+				<div class="card">
+					<h2>Título H2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions card__actions--bottom">
+						<a href="#!" class="btn">Botón 1</a>
+						<a href="#!" class="btn">Botón 2</a>
+					</div>
+				</div>
+			</article>
+			<article class="col col-12-24 order-1">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x510/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x280/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<img src="https://dummyimage.com/600x400/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+		</section>
+		<section class="row mb-40">
+			<article class="col col-24-24 bg-purple color-white">
+				<div class="card card--big text-center">
+					<h2>Título H2</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id</p>
+					<div class="card__actions">
+						<a href="#!" class="btn">Botón 1</a>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="row">
+			<article class="col col-16-24 order-1">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x380/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x210/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<img src="https://dummyimage.com/800x400/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+			<article class="col col-8-24 bg-white order-2">
+				<div class="card card--small">
+					<h3>Título H3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions">
+						<a href="#!" class="btn">Botón 1</a>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="row">
+			<article class="col col-8-24 bg-white order-2">
+				<div class="card card--small">
+					<h3>Título H3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions">
+						<a href="#!" class="btn">Botón 1</a>
+					</div>
+				</div>
+			</article>
+			<article class="col col-8-24 bg-red color-white order-3 text-center v-middle">
+				<div class="card card--small">
+					<h3>Imágen + Texto</h3>
+					<img src="img/iconmonstr-cloud-19-120.png" alt="">
+					<a href="https://iconmonstr.com/" class="btn">https://iconmonstr.com/</a>
+				</div>
+			</article>
+			<article class="col col-8-24 order-1">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x420/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x420/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<img src="https://dummyimage.com/400x400/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+		</section>
+		<section class="row">
+			<article class="col col-8-24 order-1">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x420/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x420/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<img src="https://dummyimage.com/400x400/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+			<article class="col col-8-24 bg-white order-2">
+				<div class="card card--small">
+					<h3>Título H3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions">
+						<a href="#!" class="btn">Botón 1</a>
+					</div>
+				</div>
+			</article>
+			<article class="col col-8-24 bg-red v-middle order-3">
+				<div class="card card--small">
+					<img src="img/iconmonstr-smartphone-15-240.png" alt="">
+				</div>
+			</article>
+		</section>
+		<section class="row mb-40">
+			<article class="col col-8-24 bg-white order-2">
+				<div class="card card--small">
+					<h3>Título H3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions card__actions--bottom">
+						<a href="#!" class="btn">Botón 1</a>
+					</div>
+				</div>
+			</article>
+			<article class="col col-8-24 bg-blue color-white order-3">
+				<div class="card card--small">
+					<h3>Título H3</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					<div class="card__actions card__actions--bottom">
+						<a href="#!" class="btn">Botón 1</a>
+					</div>
+				</div>
+			</article>
+			<article class="col col-8-24 order-1">
+				<figure>
+					<picture>
+						<source srcset="https://dummyimage.com/767x380/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+						<source srcset="https://dummyimage.com/420x315/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+						<source srcset="https://dummyimage.com/300x300/06b8af/fff" media="(max-width: 910px)">
+						<img src="https://dummyimage.com/400x300/06b8af/fff" alt="">
+					</picture>
+				</figure>
+			</article>
+		</section>
+		<section class="row row--full-width mb-40">
+			<article class="col col-24-24 bg-red color-white">
+				<div class="card card--big text-center">
+					<h2>Título H2</h2>
+					<div class="card__actions">
+						<a href="#!" class="btn">Botón 1</a>
+					</div>
+				</div>
+			</article>
+		</section>
+		<section class="row row--gutter-20 mb-40">
+			<article class="col col-8-24 bg-white order-1">
+				<a href="#!">
+					<figure>
+						<picture>
+							<source srcset="https://dummyimage.com/767x325/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+							<source srcset="https://dummyimage.com/420x180/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+							<img src="https://dummyimage.com/390x165/06b8af/fff" alt="">
+						</picture>
+					</figure>
+					<div class="card card--smallest">
+						<h3>Título H3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					</div>
+				</a>
+			</article>
+			<article class="col col-8-24 bg-white order-2">
+				<a href="#!">
+					<figure>
+						<picture>
+							<source srcset="https://dummyimage.com/767x325/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+							<source srcset="https://dummyimage.com/420x180/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+							<img src="https://dummyimage.com/390x165/06b8af/fff" alt="">
+						</picture>
+					</figure>
+					<div class="card card--smallest">
+						<h3>Título H3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					</div>
+				</a>
+			</article>
+			<article class="col col-8-24 bg-white order-3">
+				<a href="#!">
+					<figure>
+						<picture>
+							<source srcset="https://dummyimage.com/767x325/06b8af/fff" media="(max-width: 767px) and (orientation: landscape)">
+							<source srcset="https://dummyimage.com/420x180/06b8af/fff" media="(max-width: 420px) and (orientation: portrait)">
+							<img src="https://dummyimage.com/390x165/06b8af/fff" alt="">
+						</picture>
+					</figure>
+					<div class="card card--smallest">
+						<h3>Título H3</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris erat metus, sodales quis mauris id, venenatis congue dui</p>
+					</div>
+				</a>
+			</article>
+		</section>
+	</div>
+</body>
+</html>
