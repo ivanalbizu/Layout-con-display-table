@@ -309,10 +309,12 @@ figure {
 	.row.mb-40 {
 		margin-bottom: 0;
 	}
+	.card {
+		padding: 2em 1em;
+	}
 	.card__actions--bottom {
 		position: static;
-		padding: 0;;
-
+		padding: 0;
 	}
 
 }
