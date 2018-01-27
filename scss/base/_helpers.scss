@@ -1,0 +1,46 @@
+/*UTILIDAD colores*/
+.bg-blue {
+	background-color: $blue;
+}
+.bg-purple {
+	background-color: $purple;
+}
+.bg-red {
+	background-color: $red;
+}
+.bg-white {
+	background-color: $white;
+}
+.color-white,
+.color-white a {
+	color: $white;
+}
+
+/*UTILIDAD Alineación*/
+.text-left {
+	text-align: left;
+}
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+.v-top {
+	vertical-align: top;
+}
+.v-middle {
+	vertical-align: middle;
+}
+.v-bottom {
+	vertical-align: bottom;
+}
+.mb-10 {
+	margin-bottom: .625em;
+}
+.mb-20 {
+	margin-bottom: 1.25em;
+}
+.mb-40 {
+	margin-bottom: 2.5em;
+}

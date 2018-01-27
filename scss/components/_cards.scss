@@ -1,0 +1,54 @@
+/*TARJETAS*/
+.card { /*por defecto será 60*/
+	padding: 8% 9%;
+	box-sizing: border-box;
+	&--big {
+		padding: 6.5% 9%;
+	}
+	&--small {
+		padding-top: 10%;
+	}
+	&--smallest {
+		padding: 8% 7%;
+	}
+
+	&__actions {
+		margin-top: 2em;
+		.btn:not(:first-child) {
+			margin-left: 1.7em;
+		}
+		&--bottom {
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			padding-left: inherit;
+			padding-right: inherit;
+			padding-top: 1em;
+			padding-bottom: 1em;
+		}
+		&--right {
+			text-align: right;
+		}
+		&--center {
+			text-align: center;
+		}
+	}
+}
+
+/*TARJETAS Botones*/
+.btn {
+	font-size: 1.1em;
+	font-weight: 300;
+	letter-spacing: 0.5px;
+}
+
+@media only screen and (max-width: 767px){
+	.card {
+		padding: 2em 1em;
+		&__actions--bottom {
+			position: static;
+			padding: 0;
+		}
+	}
+}

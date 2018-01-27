@@ -1,0 +1,159 @@
+/*GRID Filas*/
+.container {
+	max-width: 1200px;
+	margin: auto;
+}
+.row {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	position: relative;
+}
+.row--gutter-20 {
+	border-collapse: separate;
+	border-spacing: 20px 0;
+	width: calc(100% + 20px*2);
+	margin-left: -20px;
+	margin-right: -20px;
+	overflow-x: hidden;
+}
+.row--gutter-20 div {
+	border-collapse: collapse;
+}
+.row--full-width {
+	width: 100vw;
+	left: 50%;
+	margin-left: -50vw;
+}
+
+/*GRID Columnas*/
+.col {
+	display: table-cell;
+	vertical-align: top;
+	position: relative;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+.col-1-24 {
+	width: 4.1667%;
+}
+.col-2-24 {
+	width: 8.3333%;
+}
+.col-3-24 {
+	width: 12.5%;
+}
+.col-4-24 {
+	width: 16.6667%;
+}
+.col-1-5 {
+	width: 20%;
+}
+.col-5-24 {
+	width: 20.8333%;
+}
+.col-6-24 {
+	width: 25%;
+}
+.col-7-24 {
+	width: 29.1667%;
+}
+.col-8-24 {
+	width: 33.3333%;
+}
+.col-9-24 {
+	width: 37.5%;
+}
+.col-2-5 {
+	width: 40%;
+}
+.col-10-24 {
+	width: 41.6667%;
+}
+.col-11-24 {
+	width: 45.8333%;
+}
+.col-12-24 {
+	width: 50%;
+}
+.col-13-24 {
+	width: 54.1667%;
+}
+.col-14-24 {
+	width: 58.3333%;
+}
+.col-3-5 {
+	width: 60%;
+}
+.col-15-24 {
+	width: 62.5%;
+}
+.col-16-24 {
+	width: 66.6667%;
+}
+.col-17-24 {
+	width: 70.8333%;
+}
+.col-18-24 {
+	width: 75%;
+}
+.col-19-24 {
+	width: 79.1667%;
+}
+.col-4-5 {
+	width: 80%;
+}
+.col-20-24 {
+	width: 83.3333%;
+}
+.col-21-24 {
+	width: 87.5%;
+}
+.col-22-24 {
+	width: 91.6667%;
+}
+.col-23-24 {
+	width: 95.8333%;
+}
+.col-24-24 {
+	width: 100%;
+}
+
+@media only screen and (max-width: 767px){
+	.row {
+		display: flex;
+		flex-direction: column;
+	}
+	.row [class*=col-] {
+		display: flex;
+		flex-direction: column;
+	}
+	.row [class*=order-] {
+		min-height: 100px;
+	}
+	.row .order-1 {
+		order: 1;
+	}
+	.row .order-2 {
+		order: 2;
+	}
+	.row .order-3 {
+		order: 3;
+	}
+	.row--gutter-20 {
+		border-collapse: collapse;
+		border-spacing: 0;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.row.mb-10,
+	.row.mb-20,
+	.row.mb-40 {
+		margin-bottom: 0;
+	}
+	.col {
+		display: block;
+		width: 100%;
+	}
+}
